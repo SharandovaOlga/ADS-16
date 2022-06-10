@@ -39,6 +39,7 @@ class Tree {
     for (size_t i = 0; i < root->leaf.size(); i++)
       perm(root->leaf[i], symbol);
   }
+
  public:
   std::string operator[](int i) const {
     if (i >= prm.size())
